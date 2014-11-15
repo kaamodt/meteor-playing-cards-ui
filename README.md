@@ -21,7 +21,9 @@ Example:
   {{> playingCard rank="A" suit="C" text="textOnCard"}}
 </div>
 ```
+![Alt text](https://github.com/kaamodt/meteor-playing-cards-ui/blob/screenshots/screenshots/tableLayout.png?raw=true "Table Layout")
 Adding the other, .cardsInHand, will lay out the card overlapping. As you would normally stack card in your hand when playing cards. The configuration support max 13 cards displayed in a row this way.
+
 
 Example:
 ```HTML
@@ -32,6 +34,8 @@ Example:
   {{> playingCard rank="A" suit="C" text="textOnCard"}}
 </div>
 ```
+![Alt text](https://github.com/kaamodt/meteor-playing-cards-ui/blob/screenshots/screenshots/handLayout.png?raw=true "Hand Layout")
+
 The number of cards you can display with these classes can easily be extended by adding your own css with the following structure for .cardsContainer:
 
 ```css
