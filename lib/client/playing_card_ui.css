@@ -35,6 +35,9 @@
 .cardsInHand .card:nth-of-type(8) { left: 7em; }
 .cardsInHand .card:nth-of-type(9) { left: 8em; }
 .cardsInHand .card:nth-of-type(10) { left: 9em; }
+.cardsInHand .card:nth-of-type(11) { left: 10em; }
+.cardsInHand .card:nth-of-type(12) { left: 11em; }
+.cardsInHand .card:nth-of-type(13) { left: 12em; }
 
 .cardsContainer {
   position: relative;

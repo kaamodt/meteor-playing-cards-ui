@@ -10,7 +10,7 @@ The template can take 3 arguments, rank, suit and text. In reality there is no r
 
 ## Laying out cards
 
-The template has defined two css classes for laying out the cards. The first, .cardsContainer, will lay out the cards next to each other with full width. E.g, as they would be on a table.
+The template has defined two css classes for laying out the cards. The first, .cardsContainer, will lay out the cards next to each other with full width. E.g, as they would be on a table. The configuration support max 10 cards displayed in a row this way.
 
 Example:
 ```HTML
@@ -21,7 +21,7 @@ Example:
   {{> playing Card rank="A" suit="C" text="textOnCard"}}
 </div>
 ```
-Adding the other, .cardsInHand, will lay out the card overlapping. As you would normally stack card in your hand when playing cards.
+Adding the other, .cardsInHand, will lay out the card overlapping. As you would normally stack card in your hand when playing cards. The configuration support max 13 cards displayed in a row this way.
 
 Example:
 ```HTML
@@ -32,3 +32,16 @@ Example:
   {{> playing Card rank="A" suit="C" text="textOnCard"}}
 </div>
 ```
+The number of cards you can display with these classes can easily be extended by adding your own css with the following structure for .cardsContainer:
+
+```css
+.card:nth-of-type(n) { left: ((n-1)*7)em; }
+```
+Where n is a number above 10.
+
+And similar for the .cardsInHand class:
+
+```css
+.cardsInHand .card:nth-of-type(n) { left: (n-1)em; }
+```
+Where n is a number above 13.
