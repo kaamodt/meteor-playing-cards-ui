@@ -6,6 +6,8 @@ Example:
 ```html
 {{> playingCard rank="A" suit="H" text="textOnCard"}}
 ```
+![Alt text](https://github.com/kaamodt/meteor-playing-cards-ui/blob/screenshots/screenshots/singleCard.png?raw=true "Single Card")
+
 The template can take 3 arguments, rank, suit and text. In reality there is no restrictions on the rank argument, but it is meant to work with values A, 2, 3, 4, 5, 6, 7, 8, 9, 10, J, Q and K. The suit argument takes C, D, H and S. The text argument is added if you want some text on the card. E.g, denoting the player of a card in a multiplayer game.
 
 ## Laying out cards
@@ -21,7 +23,9 @@ Example:
   {{> playingCard rank="A" suit="C" text="textOnCard"}}
 </div>
 ```
+![Alt text](https://github.com/kaamodt/meteor-playing-cards-ui/blob/screenshots/screenshots/tableLayout.png?raw=true "Table Layout")
 Adding the other, .cardsInHand, will lay out the card overlapping. As you would normally stack card in your hand when playing cards. The configuration support max 13 cards displayed in a row this way.
+
 
 Example:
 ```HTML
@@ -32,6 +36,8 @@ Example:
   {{> playingCard rank="A" suit="C" text="textOnCard"}}
 </div>
 ```
+![Alt text](https://github.com/kaamodt/meteor-playing-cards-ui/blob/screenshots/screenshots/handLayout.png?raw=true "Hand Layout")
+
 The number of cards you can display with these classes can easily be extended by adding your own css with the following structure for .cardsContainer:
 
 ```css
