@@ -63,3 +63,7 @@ The size is based out of the css property font-size. By default this is 14px. Ad
   {{> playingCard rank="A" suit="C" text="textOnCard"}}
 </div>
 ```
+
+## Acknowledgement
+
+The css in this package is heavily based on the css explained in this guide: http://spin.atomicobject.com/2013/02/22/css-sprite-semantics-scaleability/
