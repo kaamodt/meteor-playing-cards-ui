@@ -45,3 +45,21 @@ And similar for the .cardsInHand class:
 .cardsInHand .card:nth-of-type(n) { left: (n-1)em; }
 ```
 Where n is a number above 13.
+
+## Scaling
+
+The size is based out of the css property font-size. By default this is 14px. Add a class/id with a font-size defined to a wrapper div in order to scale the cards as wanted. Example:
+
+```css
+.size-20 {
+  font-size: 20px;
+}
+```
+```html
+<div class="cardsContainer cardsInHand size-20">
+  {{> playing Card rank="A" suit="H" text="textOnCard"}}
+  {{> playing Card rank="A" suit="D" text="textOnCard"}}
+  {{> playing Card rank="A" suit="S" text="textOnCard"}}
+  {{> playing Card rank="A" suit="C" text="textOnCard"}}
+</div>
+```

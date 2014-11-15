@@ -1,7 +1,7 @@
 Package.describe({
   name: 'kaamodt:playing-cards-ui',
   summary: 'Template for displaying simple playing cards.',
-  version: '0.7.0',
+  version: '0.7.1',
   git: 'https://github.com/kaamodt/meteor-playing-cards-ui.git'
 });
 

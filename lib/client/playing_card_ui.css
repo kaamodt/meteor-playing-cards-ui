@@ -11,7 +11,7 @@
   padding-left: .1em;
   letter-spacing: 0.0em;
   position: absolute;
-  font-size: 14px;
+  font-size: 100%;
 }
 
 .card:nth-of-type(1) { left: 0; }
@@ -45,7 +45,7 @@
 }
 
 .ranksuit {
-  font-size: 50px;
+  font-size: 350%;
   line-height: 0.9em;
   letter-spacing: 0.0em;
   vertical-align: middle;
@@ -54,12 +54,12 @@
 }
 
 .ace {
-  font-size: 100px;
+  font-size: 700%;
   margin-top: -1em;
 }
 
 .cardtext {
-  font-size: 18px;
+  font-size: 110%;
   text-align: center;
   color: #000;
   font-family: 'Arial', serif;
