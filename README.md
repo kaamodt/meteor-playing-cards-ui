@@ -15,10 +15,10 @@ The template has defined two css classes for laying out the cards. The first, .c
 Example:
 ```HTML
 <div class="cardsContainer">
-  {{> playing Card rank="A" suit="H" text="textOnCard"}}
-  {{> playing Card rank="A" suit="D" text="textOnCard"}}
-  {{> playing Card rank="A" suit="S" text="textOnCard"}}
-  {{> playing Card rank="A" suit="C" text="textOnCard"}}
+  {{> playingCard rank="A" suit="H" text="textOnCard"}}
+  {{> playingCard rank="A" suit="D" text="textOnCard"}}
+  {{> playingCard rank="A" suit="S" text="textOnCard"}}
+  {{> playingCard rank="A" suit="C" text="textOnCard"}}
 </div>
 ```
 Adding the other, .cardsInHand, will lay out the card overlapping. As you would normally stack card in your hand when playing cards. The configuration support max 13 cards displayed in a row this way.
@@ -26,10 +26,10 @@ Adding the other, .cardsInHand, will lay out the card overlapping. As you would 
 Example:
 ```HTML
 <div class="cardsContainer cardsInHand">
-  {{> playing Card rank="A" suit="H" text="textOnCard"}}
-  {{> playing Card rank="A" suit="D" text="textOnCard"}}
-  {{> playing Card rank="A" suit="S" text="textOnCard"}}
-  {{> playing Card rank="A" suit="C" text="textOnCard"}}
+  {{> playingCard rank="A" suit="H" text="textOnCard"}}
+  {{> playingCard rank="A" suit="D" text="textOnCard"}}
+  {{> playingCard rank="A" suit="S" text="textOnCard"}}
+  {{> playingCard rank="A" suit="C" text="textOnCard"}}
 </div>
 ```
 The number of cards you can display with these classes can easily be extended by adding your own css with the following structure for .cardsContainer:
@@ -57,9 +57,9 @@ The size is based out of the css property font-size. By default this is 14px. Ad
 ```
 ```html
 <div class="cardsContainer cardsInHand size-20">
-  {{> playing Card rank="A" suit="H" text="textOnCard"}}
-  {{> playing Card rank="A" suit="D" text="textOnCard"}}
-  {{> playing Card rank="A" suit="S" text="textOnCard"}}
-  {{> playing Card rank="A" suit="C" text="textOnCard"}}
+  {{> playingCard rank="A" suit="H" text="textOnCard"}}
+  {{> playingCard rank="A" suit="D" text="textOnCard"}}
+  {{> playingCard rank="A" suit="S" text="textOnCard"}}
+  {{> playingCard rank="A" suit="C" text="textOnCard"}}
 </div>
 ```
