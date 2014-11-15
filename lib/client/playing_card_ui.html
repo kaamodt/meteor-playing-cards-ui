@@ -1,3 +1,7 @@
 <template name="playingCard">
-  <div class="card {{suit}}">{{rank}}<br/>{{suitString suit}}<div class="ranksuit {{isAce rank}}">{{rankString rank}}<br/>{{suitString suit}}</div><div class="cardtext">{{text}}</div></div>
+  {{#if back}}
+    <div class="card cardBack"></div>
+  {{else}}
+    <div class="card {{suit}}">{{rank}}<br/>{{suitString suit}}<div class="ranksuit {{isAce rank}}">{{rankString rank}}<br/>{{suitString suit}}</div><div class="cardtext">{{text}}</div></div>
+  {{/if}}
 </template>
