@@ -10,15 +10,25 @@ The template can take 3 arguments, rank, suit and text. In reality there is no r
 
 ## Laying out cards
 
-The template has defined two css classes for laying out the cards. The first, .cardstack, will lay out the cards besides each other with full width.
+The template has defined two css classes for laying out the cards. The first, .cardsContainer, will lay out the cards next to each other with full width. E.g, as they would be on a table.
 
 Example:
 ```HTML
-<div class="cardstack">
+<div class="cardsContainer">
   {{> playing Card rank="A" suit="H" text="textOnCard"}}
   {{> playing Card rank="A" suit="D" text="textOnCard"}}
   {{> playing Card rank="A" suit="S" text="textOnCard"}}
   {{> playing Card rank="A" suit="C" text="textOnCard"}}
 </div>
 ```
-The other, .hand, will lay out the card overlapping. As you would normally stack card IRL when playing cards.
+Adding the other, .cardsInHand, will lay out the card overlapping. As you would normally stack card in your hand when playing cards.
+
+Example:
+```HTML
+<div class="cardsContainer cardsInHand">
+  {{> playing Card rank="A" suit="H" text="textOnCard"}}
+  {{> playing Card rank="A" suit="D" text="textOnCard"}}
+  {{> playing Card rank="A" suit="S" text="textOnCard"}}
+  {{> playing Card rank="A" suit="C" text="textOnCard"}}
+</div>
+```

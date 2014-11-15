@@ -25,18 +25,18 @@
 .card:nth-of-type(9) { left: 56em; }
 .card:nth-of-type(10) { left: 63em; }
 
-.hand .card:nth-of-type(1) { left: 0; }
-.hand .card:nth-of-type(2) { left: 1em; }
-.hand .card:nth-of-type(3) { left: 2em; }
-.hand .card:nth-of-type(4) { left: 3em; }
-.hand .card:nth-of-type(5) { left: 4em; }
-.hand .card:nth-of-type(6) { left: 5em; }
-.hand .card:nth-of-type(7) { left: 6em; }
-.hand .card:nth-of-type(8) { left: 7em; }
-.hand .card:nth-of-type(9) { left: 8em; }
-.hand .card:nth-of-type(10) { left: 9em; }
+.cardsInHand .card:nth-of-type(1) { left: 0; }
+.cardsInHand .card:nth-of-type(2) { left: 1em; }
+.cardsInHand .card:nth-of-type(3) { left: 2em; }
+.cardsInHand .card:nth-of-type(4) { left: 3em; }
+.cardsInHand .card:nth-of-type(5) { left: 4em; }
+.cardsInHand .card:nth-of-type(6) { left: 5em; }
+.cardsInHand .card:nth-of-type(7) { left: 6em; }
+.cardsInHand .card:nth-of-type(8) { left: 7em; }
+.cardsInHand .card:nth-of-type(9) { left: 8em; }
+.cardsInHand .card:nth-of-type(10) { left: 9em; }
 
-.cardstack {
+.cardsContainer {
   position: relative;
   height: 9.6em;
 }
