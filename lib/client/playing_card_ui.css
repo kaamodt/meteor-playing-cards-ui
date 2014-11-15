@@ -1,0 +1,67 @@
+.card {
+  height: 8.85em;
+  width: 6.4em;
+  background-color: #fff;
+  border: 1px solid #695d39;
+  border-radius: .5em;                       /* omitted -moz- and -webkit- hacks */
+  box-shadow: -.25em .25em .5em -.25em #000; /* omitted -moz- and -webkit- hacks */
+  font-family: 'Times', serif;
+  line-height: 1em;
+  padding-top: .25em;
+  padding-left: .1em;
+  letter-spacing: 0.0em;
+  position: absolute;
+  font-size: 14px;
+}
+
+.card:nth-of-type(1) { left: 0; }
+.card:nth-of-type(2) { left: 7em; }
+.card:nth-of-type(3) { left: 14em; }
+.card:nth-of-type(4) { left: 21em; }
+.card:nth-of-type(5) { left: 28em; }
+.card:nth-of-type(6) { left: 35em; }
+.card:nth-of-type(7) { left: 42em; }
+.card:nth-of-type(8) { left: 49em; }
+.card:nth-of-type(9) { left: 56em; }
+.card:nth-of-type(10) { left: 63em; }
+
+.hand .card:nth-of-type(1) { left: 0; }
+.hand .card:nth-of-type(2) { left: 1em; }
+.hand .card:nth-of-type(3) { left: 2em; }
+.hand .card:nth-of-type(4) { left: 3em; }
+.hand .card:nth-of-type(5) { left: 4em; }
+.hand .card:nth-of-type(6) { left: 5em; }
+.hand .card:nth-of-type(7) { left: 6em; }
+.hand .card:nth-of-type(8) { left: 7em; }
+.hand .card:nth-of-type(9) { left: 8em; }
+.hand .card:nth-of-type(10) { left: 9em; }
+
+.cardstack {
+  position: relative;
+  height: 9.6em;
+}
+
+.ranksuit {
+  font-size: 50px;
+  line-height: 0.9em;
+  letter-spacing: 0.0em;
+  vertical-align: middle;
+  text-align: center;
+  margin-top: -0.25em;
+}
+
+.ace {
+  font-size: 100px;
+  margin-top: -1em;
+}
+
+.cardtext {
+  font-size: 18px;
+  text-align: center;
+  color: #000;
+  font-family: 'Arial', serif;
+}
+
+
+.H, .D { color: #FF0000; }
+.S, .C { color: #000; }
