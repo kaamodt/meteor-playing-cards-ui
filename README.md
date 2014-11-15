@@ -4,7 +4,7 @@ A simple meteor template for displaying playing cards.
 
 Example:
 ```html
-{{> playing Card rank="A" suit="H" text="textOnCard"}}
+{{> playingCard rank="A" suit="H" text="textOnCard"}}
 ```
 The template can take 3 arguments, rank, suit and text. In reality there is no restrictions on the rank argument, but it is meant to work with values A, 2, 3, 4, 5, 6, 7, 8, 9, 10, J, Q and K. The suit argument takes C, D, H and S. The text argument is added if you want some text on the card. E.g, denoting the player of a card in a multiplayer game.
 
