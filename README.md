@@ -34,6 +34,8 @@ Example:
   {{> playingCard rank="A" suit="C" text="textOnCard"}}
 </div>
 ```
+![Alt text](https://github.com/kaamodt/meteor-playing-cards-ui/blob/screenshots/screenshots/handLayout.png?raw=true "Hand Layout")
+
 The number of cards you can display with these classes can easily be extended by adding your own css with the following structure for .cardsContainer:
 
 ```css
